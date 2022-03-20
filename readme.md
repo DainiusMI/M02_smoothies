@@ -2,8 +2,7 @@
 This project is a part of an early html/css course introducing CSS flex. This time I am going in without completing the video course, using only a link provided by a tutor to a flex guide and his already completed design. (Images used in this project have been downloaded from his repository)
 
 ## LINK TO MY DESIGN WEB VERSION:
-
-
+https://dainiusmi.github.io/M02_smoothies/
 ## LINK TO HIS DESIGN REFERENCE:
 https://front-end-by-rimantas.github.io/32-grupe-smoothies/
 
