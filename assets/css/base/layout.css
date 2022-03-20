@@ -1,0 +1,34 @@
+@media (max-width: 1200px) {
+
+    body .container.hero ,
+    body .container.main {
+        width: calc(90vw);
+
+    }
+}
+
+@media (max-width: 1025px) {
+
+    body .container.main .main-right.table  {
+        flex-direction: column; 
+        row-gap: 1em;;
+    } 
+    .main .main-left .button.round-button {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 770px) {
+    .container.main {
+        flex-direction: column;
+        align-items: center;
+    }
+    body .container.main .main-left,
+    body .container.main .main-right {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 480px) {
+
+}

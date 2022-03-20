@@ -1,0 +1,173 @@
+/**  base styles   **/
+@import "../base/reset.css";
+@import "../base/variables.css";
+@import "../base/layout.css";
+/**  3rd party components  **/
+@import "../all.css";
+/**  my components   **/
+@import "../components/button.css";
+@import "../components/header.css;";
+
+
+
+body {   
+    display: flex;
+    flex-direction: column;    
+    align-items: center;        
+}
+/**  header begins  **/
+
+
+.container.hero {
+    width: var(--page-width);  
+    display: flex;    
+    justify-content: space-between; 
+    align-items: center;  
+    height: 6em;    
+    font-size: 15px;
+    padding: 1em;  
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 99;
+}
+.header-left {
+     display: flex;
+}
+.header-right {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 1.5em;        
+    padding: 1.5em;      
+}
+.header-right > .links, 
+.header-right .header-icons
+{
+    display: flex;
+    justify-content: space-between;     
+    gap: 1.5em;    
+    cursor: pointer;       
+}
+.hero.link {
+    text-decoration: none; 
+    color: black;    
+}
+.hero.link:hover {
+    text-decoration: underline; 
+    color: var(--proj-color);
+}   
+/**  header ends  **/
+/**  main content begins  **/
+.container.main {
+    width: var(--page-width);
+    display: flex;
+    justify-content: space-between;  
+    padding: 1.5em;
+     
+}
+.container.main .main-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    padding: 0 2em;
+    
+
+}
+.main-left .product-img {
+    display: flex; 
+    width: 100%;
+   
+    
+}
+
+.button.round-button.button-r {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+}
+.button.round-button.button-l {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+
+
+
+
+.container.main .main-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    row-gap: 1em;
+}
+.colored {
+    color: var(--proj-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-right h1 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container.main .main-right h2{
+    font-size: inherit;
+}
+
+
+.container.main .main-right.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 4em;
+    width: 100%;
+    font-size: 15px;
+    
+}
+.table .nutrition-col {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5em;
+}
+.nutrition-col .nutri-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5em;
+}
+.nutri-row i {
+    color: var(--proj-color);
+}
+
+.table .contains {
+   display: flex;
+   flex-direction: column; 
+   row-gap: .5em;
+}
+.contains .berry-img {
+    display: flex;
+    gap: 10px;
+
+}
+.berry-img img  {
+    box-sizing: content-box;
+    height: 34px;
+    width: 34px;
+    background-color: var(--proj-color2);
+    padding: 15px;
+    border-radius: 32px;
+}
+
+
+
+
+/**  main content ends  **/
+/**     **/
+/**     **/
+
