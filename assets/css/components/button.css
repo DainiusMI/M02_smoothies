@@ -7,14 +7,14 @@
 }
 
 .main-left .button.round-button {
-    font-size: 23px;
+    font-size: 21px;
     padding: .8em 1em;
     border-radius: 2em;
 }
-.main-right .button {
-    width: 10em;
+.main-right .button {    
     font-size: 15px;
-    padding: .8em 1em;
+    font-weight: bold;
+    padding: 1em 3em;
     border-radius: 5px;
 }
 .main-right .button:hover {

@@ -38,7 +38,7 @@ body {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
-    gap: 1.5em;        
+    gap: 3em;        
     padding: 1.5em;      
 }
 .header-right > .links, 
@@ -63,7 +63,7 @@ body {
     width: var(--page-width);
     display: flex;
     justify-content: space-between;  
-    padding: 1.5em;
+    padding: 0 1.5em;
      
 }
 .container.main .main-left {
@@ -72,14 +72,12 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 55%;
-    padding: 0 2em;
-    
+    padding: 0 2em;    
 
 }
 .main-left .product-img {
     display: flex; 
-    width: 100%;
-   
+    width: 100%;  
     
 }
 
@@ -87,23 +85,26 @@ body {
     position: absolute;
     top: 50%;
     right: 0%;
+    transform: translateY(-50%);
 }
 .button.round-button.button-l {
     position: absolute;
     top: 50%;
     left: 0;
+    transform: translateY(-50%);
 }
 
 
 
 
-
-.container.main .main-right {
+.container.main > .main-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 45%;
-    row-gap: 1em;
+    row-gap: 1.5em;   
+    padding: 2em;
+
 }
 .colored {
     color: var(--proj-color);
@@ -117,7 +118,7 @@ body {
 }
 
 .container.main .main-right h2{
-    font-size: inherit;
+    font-size: 18px;
 }
 
 
@@ -125,9 +126,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 4em;
+    gap: 3em;
     width: 100%;
-    font-size: 15px;
+    font-size: 18px;
     
 }
 .table .nutrition-col {
