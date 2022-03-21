@@ -1,7 +1,9 @@
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
     .header-right {
         display: flex;
-    }
+    }}
+@media (max-width: 1200px) {
+
 
     body .container.hero ,
     body .container.main {
