@@ -1,4 +1,7 @@
 @media (max-width: 1200px) {
+    .header-right {
+        display: flex;
+    }
 
     body .container.hero ,
     body .container.main {
@@ -27,6 +30,28 @@
     body .container.main .main-right {
         width: 70vw;
     }
+    @media (max-width: 620px) {
+        .hero .hamburger-menu {
+            display: flex;
+        }
+        .header-right {
+            display: none;
+        }
+        .header-right {
+           
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 2em;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: white;
+            z-index: 2;
+            box-shadow: 0px 4px 5px -6px black;
+        }
+    }
+
 }
 
 @media (max-width: 480px) {
